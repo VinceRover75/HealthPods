@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HealthPods</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .map {
+    height: 220px;
+    background: #e5e5e2;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+  }
+
+  .pod {
+    padding: 1.2rem;
+    border-radius: 14px;
+    background: #f1f1ed;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+  }
+</style>
+</head>
+
+<body>
+<div class="page">
+
+<h1>HealthPods</h1>
+<p>Walk-in healthcare access within 15 minutes.</p>
+
+<div class="map">
+  <!-- static map placeholder -->
+</div>
+
+<div class="pod" onclick="location.href='tele-pod.html'">
+  <strong>HealthPod · Calonge Centre</strong><br>
+  Open today · 08:00–18:00
+</div>
+
+<div class="pod" onclick="location.href='tele-pod.html'">
+  <strong>HealthPod · Sant Antoni East</strong><br>
+  Open today · 08:00–18:00
+</div>
+
+<button onclick="location.href='cap.html'">
+  Book CAP appointment
+</button>
+
+<button onclick="location.href='tele-home.html'">
+  Teleconsultation from home
+</button>
+
+<a href="feedback.html">Give feedback</a>
+
+</div>
+</body>
+</html>
+

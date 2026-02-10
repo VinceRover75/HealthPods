@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Feedback</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="page">
+
+<h1>Feedback</h1>
+<p>Help us improve public healthcare.</p>
+
+<div class="card">HealthPod</div>
+<div class="card">HealthRide+</div>
+<div class="card">CAP</div>
+<div class="card">Teleconsultation</div>
+
+<button onclick="location.href='index.html'">
+  Submit feedback
+</button>
+
+</div>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+</body>
+</html>
